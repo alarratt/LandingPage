@@ -1,0 +1,58 @@
+
+header {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+
+.section1 a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.section1{
+    background-color: #1f2937;
+    /*display: flex;
+    justify-content: center;*/
+}
+.HeroSecText{
+    color: #e5e7eb;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero div{
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+/*.section2{
+    background-color: ;
+}*/
+
+.section3{
+    background-color: #EFE7EB;
+}
+.section4{
+    background-color:#3882F6;
+}
+header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+*{
+    border:1px solid #00FF00;
+}
+button{
+    position:relative;
+    top:50%; 
+    left:50%;
+}
