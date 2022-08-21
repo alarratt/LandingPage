@@ -1,7 +1,7 @@
 
 header {
    display: flex; 
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
 }
 
@@ -21,7 +21,7 @@ header {
 .hero{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .hero div{
     display: flex;
@@ -34,9 +34,10 @@ header {
     font-weight: bolder;
     color: #F9FAF8;
 }
-/*.section2{
-    background-color: ;
-}*/
+.section2{
+    display: block;
+    align-items: center;
+}
 
 .section3{
     background-color: #EFE7EB;
@@ -48,11 +49,48 @@ header h1{
     font-size: 24px;
     color: #F9FAF8;
 }
-*{
+/**{
     border:1px solid #00FF00;
-}
+}*/
 button{
-    position:relative;
-    top:50%; 
-    left:50%;
+    background-color: #3882f6;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    font: bold 25px Arial;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+}
+.column{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: #006aff;
+    border-width: 5px;
+    border-radius: 10px;
+}
+.quote{
+    font: 36px italic;
+    color: #1f2937;
+    padding: 5% 10% 0% 5%;
+}
+.quote-src{
+    text-align: right;
+    font-weight: bold;
+    padding: 0 10%;
 }
