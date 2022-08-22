@@ -44,6 +44,10 @@ header {
 }
 .section4{
     background-color:#3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
 }
 header h1{
     font-size: 24px;
